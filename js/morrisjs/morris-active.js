@@ -57,45 +57,45 @@ Morris.Area({
 Morris.Area({
         element: 'extra-area-chart',
         data: [{
-            period: '2010',
-            CSE: 50,
-            Accounting: 80,
-            Electrical: 20
+            period: '2023-05',
+            Producción: 50,
+            Ventas: 80,
+            Finanzas: 20
         }, {
-            period: '2011',
-            CSE: 130,
-            Accounting: 100,
-            Electrical: 80
+            period: '2023-06',
+            Producción: 130,
+            Ventas: 100,
+            Finanzas: 80
         }, {
-            period: '2012',
-            CSE: 80,
-            Accounting: 60,
-            Electrical: 70
+            period: '2023-07',
+            Producción: 80,
+            Ventas: 60,
+            Finanzas: 70
         }, {
-            period: '2013',
-            CSE: 70,
-            Accounting: 200,
-            Electrical: 140
+            period: '2023-08',
+            Producción: 70,
+            Ventas: 200,
+            Finanzas: 140
         }, {
-            period: '2014',
-            CSE: 180,
-            Accounting: 150,
-            Electrical: 140
+            period: '2023-09',
+            Producción: 180,
+            Ventas: 150,
+            Finanzas: 140
         }, {
-            period: '2015',
-            CSE: 105,
-            Accounting: 100,
-            Electrical: 80
+            period: '2023-10',
+            Producción: 105,
+            Ventas: 100,
+            Finanzas: 80
         },
          {
-            period: '2016',
-            CSE: 250,
-            Accounting: 150,
-            Electrical: 200
+            period: '2023-11',
+            Producción: 250,
+            Ventas: 150,
+            Finanzas: 200
         }],
         xkey: 'period',
-        ykeys: ['CSE', 'Accounting', 'Electrical'],
-        labels: ['CSE', 'Accounting', 'Electrical'],
+        ykeys: ['Producción', 'Ventas', 'Finanzas'],
+        labels: ['Producción', 'Ventas', 'Finanzas'],
         pointSize: 3,
         fillOpacity: 0,
         pointStrokeColors:['#006DF0', '#933EC5', '#65b12d'],
