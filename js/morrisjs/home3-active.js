@@ -57,67 +57,48 @@
 Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            y: '2006',
-            Sale: 100,
-            Rent: 90,
-            c: 60
+            period: '2023-05',
+            Producción: 75,
+            Ventas: 28,
+            Finanzas: 68
         }, {
-            y: '2007',
-            Sale: 75,
-            Rent: 65,
-            c: 40
+            period: '2023-06',
+            Producción: 82,
+            Ventas: 32,
+            Finanzas: 70
         }, {
-            y: '2008',
-            Sale: 50,
-            Rent: 40,
-            c: 30
+            period: '2023-07',
+            Producción: 80,
+            Ventas: 36,
+            Finanzas: 70
         }, {
-            y: '2009',
-            Sale: 75,
-            Rent: 65,
-            c: 40
+            period: '2023-08',
+            Producción: 89,
+            Ventas: 40,
+            Finanzas: 68
         }, {
-            y: '2010',
-            Sale: 50,
-            Rent: 40,
-            c: 30
+            period: '2023-09',
+            Producción: 92,
+            Ventas: 44,
+            Finanzas: 72
         }, {
-            y: '2011',
-            Sale: 75,
-            Rent: 65,
-            c: 40
-        },{
-            y: '2012',
-            Sale: 75,
-            Rent: 65,
-            c: 40
-        },{
-            y: '2013',
-            Sale: 75,
-            Rent: 65,
-            c: 40
-        },{
-            y: '2014',
-            Sale: 75,
-            Rent: 65,
-            c: 40
-        },{
-            y: '2015',
-            Sale: 75,
-            Rent: 65,
-            c: 40
-        },{
-            y: '2016',
-            Sale: 100,
-            Rent: 90,
-            c: 40
+            period: '2023-10',
+            Producción: 94,
+            Ventas: 47,
+            Finanzas: 80
+        },
+         {
+            period: '2023-11',
+            Producción: 95,
+            Ventas: 50,
+            Finanzas: 85
         }],
-        xkey: 'y',
-        ykeys: ['Sale', 'Rent', 'c'],
-        labels: ['CSE', 'Accounting', 'Electrical'],
+        xkey: 'period',
+        ykeys: ['Producción', 'Ventas', 'Finanzas'],
+        labels: ['Producción', 'Ventas', 'Finanzas'],
         barColors:['#006DF0', '#933EC5', '#65b12d'],
         hideHover: 'auto',
-         barSizeRatio:0.45,
+        barSizeRatio:0.45,
         gridLineColor: '#eef0f2',
         resize: true
     });

@@ -28,6 +28,14 @@
 	color:#444;
 	line-height:24px;
 }
+.edu-custon-design .admin-panel-content2{
+	background:#f5f5f5;
+}
+.edu-custon-design .admin-panel-content2 p{
+	font-size:16px;
+	color:red;
+	line-height:24px;
+}
 .panel-group.edu-custon-design .accordion-head a:hover, .panel-group.edu-custon-design .accordion-head a:focus, .panel-group.edu-custon-design .accordion-head a:active{
 	color:#03a9f4;
 }

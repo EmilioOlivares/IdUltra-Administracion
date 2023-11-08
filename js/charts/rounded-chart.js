@@ -8,17 +8,17 @@
 	var piechart = new Chart(ctx, {
 		type: 'pie',
 		data: {
-			labels: ["Red", "Orange", "Yellow", "Green", "Blue"],
+			labels: ["Débil","Mediana", "Fuerte"],
 			datasets: [{
 				label: 'pie Chart',
                 backgroundColor: [
-					'#303030',
-					'#933EC5',
+					'#D80027',
+					'#FFE900',
 					'#65b12d',
 					'#D80027',
 					'#006DF0'
 				],
-				data: [10, 20, 30, 40, 60]
+				data: [20, 30, 50]
             }]
 		},
 		options: {
@@ -32,10 +32,10 @@
 	var polarchart = new Chart(ctx, {
 		type: 'polarArea',
 		data: {
-			labels: ["Red", "Orange", "Yellow", "Green", "Blue"],
+			labels: ["Auditor", "Administrador", "RR.HH.", "Jefe de Sección", "Usuario Estándar"],
 			datasets: [{
 				label: 'pie Chart',
-				data: [10, 20, 30, 40, 60],
+				data: [2, 3, 3, 6, 47],
                 backgroundColor: [
 					'rgb(255, 99, 132)',
 					'#933EC5',
@@ -50,10 +50,6 @@
             responsive: true,
             legend: {
                  position: 'right',
-            },
-            title: {
-                display: true,
-                text: 'Polar Chart'
             },
             scale: {
               ticks: {
