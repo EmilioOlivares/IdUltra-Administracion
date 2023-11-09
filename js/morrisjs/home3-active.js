@@ -3,47 +3,46 @@
  Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2012',
-            Python: 0,
-            PHP: 0,
-            Java: 0
+            period: '2023-05',
+            Conexión_SSL_TLS: 85,
+            Autenticación_Doble_Fact: 72,
+            Duración_de_Sesión: 70
         }, {
-            period: '2013',
-            Python: 100,
-            PHP: 80,
-            Java: 65
+            period: '2023-06',
+            Conexión_SSL_TLS: 88,
+            Autenticación_Doble_Fact: 75,
+            Duración_de_Sesión: 73
         }, {
-            period: '2014',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2023-07',
+            Conexión_SSL_TLS: 88,
+            Autenticación_Doble_Fact: 75,
+            Duración_de_Sesión: 74
         }, {
-            period: '2015',
-            Python: 100,
-            PHP: 70,
-            Java: 40
+            period: '2023-08',
+            Conexión_SSL_TLS: 90,
+            Autenticación_Doble_Fact: 78,
+            Duración_de_Sesión: 77
         }, {
-            period: '2016',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2023-09',
+            Conexión_SSL_TLS: 92,
+            Autenticación_Doble_Fact: 80,
+            Duración_de_Sesión: 78
         }, {
-            period: '2017',
-            Python: 100,
-            PHP: 70,
-            Java: 40
-        },
-         {
-            period: '2018',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2023-10',
+            Conexión_SSL_TLS: 92,
+            Autenticación_Doble_Fact: 82,
+            Duración_de_Sesión: 80
+        }, {
+            period: '2023-11',
+            Conexión_SSL_TLS: 95,
+            Autenticación_Doble_Fact: 85,
+            Duración_de_Sesión: 83
         }],
         xkey: 'period',
-        ykeys: ['Python', 'PHP', 'Java'],
-        labels: ['Python', 'PHP', 'Java'],
+        ykeys: ['Conexión_SSL_TLS', 'Autenticación_Doble_Fact', 'Duración_de_Sesión'],
+        labels: ['Conexión_SSL_TLS', 'Autenticación_Doble_Fact', 'Duración_de_Sesión'],
         pointSize: 0,
-        fillOpacity: 0.95,
+        fillOpacity: 0.99,
         pointStrokeColors:['#65b12d', '#933EC5 ', '#006DF0'],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',

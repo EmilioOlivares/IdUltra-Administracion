@@ -42,7 +42,7 @@
 /*----------------------------------------*/
 /*  1. Common
 /*----------------------------------------*/
-html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;background:#F6F8FA;}
+html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;background:#EAF9FF;}
 .floatleft {float:left}
 .floatright {float:right}
 .alignleft {float:left;margin-right:15px;margin-bottom: 15px}
@@ -3869,10 +3869,10 @@ div#sparklinehome canvas {
     display: inline-block;
 }
 .social-media-edu, .single-review-st-text{
-	    display: flex;
+	display: flex;
 }
 .single-review-st-text{
-	padding: 7.7px 0px;
+	padding: 4px 0px;
 }
 .single-review-st-text:last-child{
 	padding-bottom: 0px;
@@ -3988,10 +3988,10 @@ div#sparklinehome canvas {
 	margin-bottom:5px;
 }
 .review-ctn-hf, .review-item-rating {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .review-ctn-hf p{
-	font-size:14px;
+	font-size:13px;
 	color:#303030;
 	margin:0;
 }
@@ -3999,15 +3999,15 @@ div#sparklinehome canvas {
 	font-size:18px;
 	color:#303030;
 }
-.review-item-rating i {
-    font-size: 14px;
-    margin-top: 15px;
-	color:#ffb463;
+.review-item-rating p {
+    font-size: 12px;
 }
 .review-ctn-hf{
 	margin-top:5px;
+    width: auto;
 }
 .review-item-rating {
+    width: 25%;
     text-align: right;
     margin-left: auto;
 	margin-top:5px;

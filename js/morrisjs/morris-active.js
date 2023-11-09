@@ -134,8 +134,7 @@ Morris.Area({
             Producción: 105,
             Ventas: 100,
             Finanzas: 80
-        },
-         {
+        }, {
             period: '2023-11',
             Producción: 250,
             Ventas: 150,

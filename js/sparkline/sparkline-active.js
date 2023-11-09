@@ -1,6 +1,6 @@
 (function ($) {
- "use strict";
- 
+"use strict";
+
 	$("#sparkline1").sparkline([34, 43, 43, 35, 44, 32, 44, 52, 25], {
         type: 'line',
         lineColor: '#006DF0',
@@ -66,68 +66,68 @@
         fillColor: '#006DF0',
     });
 	
-	 $('.sparklineedu').sparkline([ [1], [2], [3], [4, 2], [3], [5, 3] ], { type: 'bar', barColor: '#006DF0',
+	$('.sparklineedu').sparkline([ [1], [2], [3], [4, 2], [3], [5, 3] ], { type: 'bar', barColor: '#006DF0',
         negBarColor: '#933EC5',});
 	
 	
 	
 
 	var sparklineCharts = function(){
-		 $("#sparkline22").sparkline([34, 43, 43, 35, 44, 32, 44, 52], {
-			 type: 'line',
-			 width: '100%',
-			 height: '60',
-			 lineColor: '#006DF0',
-			 fillColor: "#006DF0"
-		 });
+		$("#sparkline22").sparkline([34, 43, 43, 35, 44, 32, 44, 52], {
+			type: 'line',
+			width: '100%',
+			height: '60',
+			lineColor: '#006DF0',
+			fillColor: "#006DF0"
+		});
 
-		 $("#sparkline23").sparkline([24, 43, 43, 55, 44, 62, 44, 72], {
-			 type: 'line',
-			 width: '100%',
-			 height: '60',
-			 lineColor: '#933EC5',
-			 fillColor: "#933EC5"
-		 });
+		$("#sparkline23").sparkline([24, 43, 43, 55, 44, 62, 44, 72], {
+			type: 'line',
+			width: '100%',
+			height: '60',
+			lineColor: '#933EC5',
+			fillColor: "#933EC5"
+		});
 
-		 $("#sparkline24").sparkline([74, 43, 23, 55, 54, 32, 24, 12], {
-			 type: 'line',
-			 width: '100%',
-			 height: '60',
-			 lineColor: '#65b12d',
-			 fillColor: "#65b12d"
-		 });
+		$("#sparkline24").sparkline([74, 43, 23, 55, 54, 32, 24, 12], {
+			type: 'line',
+			width: '100%',
+			height: '60',
+			lineColor: '#65b12d',
+			fillColor: "#65b12d"
+		});
 
-		 $("#sparkline25").sparkline([24, 43, 33, 55, 64, 72, 44, 22], {
-			 type: 'line',
-			 width: '100%',
-			 height: '60',
-			 lineColor: '#D80027',
-			 fillColor: "#D80027"
-		 });
+		$("#sparkline25").sparkline([24, 43, 33, 55, 64, 72, 44, 22], {
+			type: 'line',
+			width: '100%',
+			height: '60',
+			lineColor: '#D80027',
+			fillColor: "#D80027"
+		});
 
-		 $("#sparkline51").sparkline([1, 4], {
-			 type: 'pie',
-			 height: '140',
-			 sliceColors: ['#006DF0', '#ebebeb']
-		 });
+		$("#sparkline51").sparkline([1, 4], {
+			type: 'pie',
+			height: '140',
+			sliceColors: ['#006DF0', '#ebebeb']
+		});
 
-		 $("#sparkline52").sparkline([5, 3], {
-			 type: 'pie',
-			 height: '140',
-			 sliceColors: ['#933EC5', '#ebebeb']
-		 });
+		$("#sparkline52").sparkline([5, 3], {
+			type: 'pie',
+			height: '140',
+			sliceColors: ['#933EC5', '#ebebeb']
+		});
 
-		 $("#sparkline53").sparkline([2, 2], {
-			 type: 'pie',
-			 height: '140',
-			 sliceColors: ['#65b12d', '#ebebeb']
-		 });
+		$("#sparkline53").sparkline([2, 2], {
+			type: 'pie',
+			height: '140',
+			sliceColors: ['#65b12d', '#ebebeb']
+		});
 
-		 $("#sparkline54").sparkline([2, 3], {
-			 type: 'pie',
-			 height: '140',
-			 sliceColors: ['#D80027', '#ebebeb']
-		 });
+		$("#sparkline54").sparkline([2, 3], {
+			type: 'pie',
+			height: '140',
+			sliceColors: ['#D80027', '#ebebeb']
+		});
 	};
 
 	var sparkResize;
@@ -141,6 +141,6 @@
 
 
 
-	
-	
+
+
 })(jQuery); 

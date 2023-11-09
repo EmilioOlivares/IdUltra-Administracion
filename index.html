@@ -1096,22 +1096,39 @@
                         <div class="charts-single-pro responsive-mg-b-30">
                             <div class="alert-title">
                                 <h2>Uso de Contraseñas Fuertes</h2>
-                                <p>Este gráfico circular muestra la distribución del uso de contraseñas entre los usuarios de la plataforma.</p><br><br>
+                                <p>Este gráfico circular muestra la distribución del uso de contraseñas entre los usuarios de la plataforma.</p>
                             </div>
-                            <div id="pie-chart">
+                            <div id="pie-chart" style="height: auto; width: 68%; margin-left: 15%;">
                                 <canvas id="piechart"></canvas>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="charts-single-pro">
-                            <div class="alert-title">
-                                <h2> Distribución de Roles</h2>
-                                <p>El gráfico polar muestra la distribución de roles de los usuarios. La distancia desde el centro del círculo hasta el borde exterior del sector indica la cantidad de usuarios asignados a ese rol. El ángulo entre los sectores refleja su proporción.</p>
+                        <div class="product-sales-chart">
+                            <div class="portlet-title">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="caption pro-sl-hd">
+                                            <h4>Evolución de Políticas de Seguridad</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        
+                                    </div>
+                                </div>
                             </div>
-                            <div id="polar-chart">
-                                <canvas id="polarchart"></canvas>
-                            </div>
+                            <ul class="list-inline cus-product-sl-rp">
+                                <li>
+                                    <h5><i class="fa fa-circle" style="color: #006DF0;"></i>Conexión (SSL/TLS)</h5>
+                                </li>
+                                <li>
+                                    <h5><i class="fa fa-circle" style="color: #933EC5;"></i>Autenticación (2FA)</h5>
+                                </li>
+                                <li>
+                                    <h5><i class="fa fa-circle" style="color: #65b12d;"></i>Duración de Sesión</h5>
+                                </li>
+                            </ul>
+                            <div id="morris-area-chart"></div>
                         </div>
                     </div>
                 </div>
@@ -1129,9 +1146,8 @@
                                 <img src="img/product/pro.svg" alt="">
                                 <h4><a class="cards-hd-dn" href="#">Agencia Desing Studio</a></h4>
                                 <h5>Diseño Digital y Branding</h5>
-                                <p class="ctn-cards">resumen de áctivos protegidos</p>
-                                <a class="follow-cards" href="#">Ver Detalle</a>
-                                <div class="row">
+                                <p class="ctn-cards">Resumen de áctivos protegidos</p>
+                                <div class="row" style="margin-top: -25px; margin-bottom: 20px;">
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                         <div class="cards-dtn">
                                             <h3><span class="counter">12</span></h3>
@@ -1151,6 +1167,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <a class="follow-cards" style="margin-bottom: 11px; margin-top: 11px;" href="#">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -1162,85 +1179,61 @@
                             <div class="single-review-st-text">
                                 <img src="img/notification/1.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Sarah Graves</h3>
-                                    <p>Highly recommend</p>
+                                    <h3>Carla Soto</h3>
+                                    <p>Directora Creativa</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-success">Ingreso:<br> Aprobado</p>
                                 </div>
                             </div>
                             <div class="single-review-st-text">
                                 <img src="img/notification/2.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Garbease sha</h3>
-                                    <p>Awesome Pro</p>
+                                    <h3>Juan González</h3>
+                                    <p>Diseñador Gráfico</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-warning">Ingreso:<br> En Proceso</p>
                                 </div>
                             </div>
                             <div class="single-review-st-text">
                                 <img src="img/notification/3.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Gobetro pro</h3>
-                                    <p>Great Website</p>
+                                    <h3>Fernando Díaz</h3>
+                                    <p>Diseñador de Interfaz</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-danger">Ingreso:<br> Pendiente</p>
                                 </div>
                             </div>
                             <div class="single-review-st-text">
                                 <img src="img/notification/4.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Siam Graves</h3>
-                                    <p>That's Good</p>
+                                    <h3>Isabel Herrera</h3>
+                                    <p>Diseñadora de Producto</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-success">Ingreso:<br> Aprobado</p>
                                 </div>
                             </div>
                             <div class="single-review-st-text">
                                 <img src="img/notification/5.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Sarah Graves</h3>
-                                    <p>Highly recommend</p>
+                                    <h3>Camila Pérez</h3>
+                                    <p>Diseñadora Web</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-success">Ingreso:<br> Aprobado</p>
                                 </div>
                             </div>
                             <div class="single-review-st-text">
                                 <img src="img/notification/6.jpg" alt="">
                                 <div class="review-ctn-hf">
-                                    <h3>Julsha Grav</h3>
-                                    <p>Sei Hoise bro</p>
+                                    <h3>Patricia Ríos</h3>
+                                    <p>Ilustradora</p>
                                 </div>
                                 <div class="review-item-rating">
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star"></i>
-                                    <i class="educate-icon educate-star-half"></i>
+                                    <p class="text-warning">Ingreso:<br> En Proceso</p>
                                 </div>
                             </div>
                         </div>
@@ -1265,103 +1258,13 @@
                 </div>
             </div>
         </div>
-        <div class="product-sales-area mg-tb-30">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-sales-chart">
-                            <div class="portlet-title">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="caption pro-sl-hd">
-                                            <span class="caption-subject"><b>Adminsion Statistic</b></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="actions graph-rp actions-graph-rp">
-                                            <a href="#" class="btn btn-dark btn-circle active tip-top" data-toggle="tooltip" title="Refresh">
-													<i class="fa fa-reply" aria-hidden="true"></i>
-												</a>
-                                            <a href="#" class="btn btn-blue-grey btn-circle active tip-top" data-toggle="tooltip" title="Delete">
-													<i class="fa fa-trash-o" aria-hidden="true"></i>
-												</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <ul class="list-inline cus-product-sl-rp">
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #006DF0;"></i>Python</h5>
-                                </li>
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #933EC5;"></i>PHP</h5>
-                                </li>
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #65b12d;"></i>Java</h5>
-                                </li>
-                            </ul>
-                            <div id="morris-area-chart"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="analysis-progrebar res-mg-t-30 mg-ub-10 res-mg-b-30 table-mg-t-pro-n tb-sm-res-d-n dk-res-t-d-n">
-                            <div class="analysis-progrebar-content">
-                                <h5>Usage</h5>
-                                <h2 class="storage-right"><span class="counter">90</span>%</h2>
-                                <div class="progress progress-mini ug-1">
-                                    <div style="width: 68%;" class="progress-bar"></div>
-                                </div>
-                                <div class="m-t-sm small">
-                                    <p>Server down since 1:32 pm.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="analysis-progrebar reso-mg-b-30 res-mg-b-30 mg-ub-10 tb-sm-res-d-n dk-res-t-d-n">
-                            <div class="analysis-progrebar-content">
-                                <h5>Memory</h5>
-                                <h2 class="storage-right"><span class="counter">70</span>%</h2>
-                                <div class="progress progress-mini ug-2">
-                                    <div style="width: 78%;" class="progress-bar"></div>
-                                </div>
-                                <div class="m-t-sm small">
-                                    <p>Server down since 12:32 pm.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="analysis-progrebar reso-mg-b-30 res-mg-b-30 res-mg-t-30 mg-ub-10 tb-sm-res-d-n dk-res-t-d-n">
-                            <div class="analysis-progrebar-content">
-                                <h5>Data</h5>
-                                <h2 class="storage-right"><span class="counter">50</span>%</h2>
-                                <div class="progress progress-mini ug-3">
-                                    <div style="width: 38%;" class="progress-bar progress-bar-danger"></div>
-                                </div>
-                                <div class="m-t-sm small">
-                                    <p>Server down since 8:32 pm.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="analysis-progrebar res-mg-t-30 table-dis-n-pro tb-sm-res-d-n dk-res-t-d-n">
-                            <div class="analysis-progrebar-content">
-                                <h5>Space</h5>
-                                <h2 class="storage-right"><span class="counter">40</span>%</h2>
-                                <div class="progress progress-mini ug-4">
-                                    <div style="width: 28%;" class="progress-bar progress-bar-danger"></div>
-                                </div>
-                                <div class="m-t-sm small">
-                                    <p>Server down since 5:32 pm.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div style="height: 25px; width: 100%;"></div>
         <div class="courses-area mg-b-15">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="white-box">
-                            <h3 class="box-title">Browser Status</h3>
+                            <h3 class="box-title">Estado de la Navegación</h3>
                             <ul class="basic-list">
                                 <li>Google Chrome <span class="pull-right label-danger label-1 label">95.8%</span></li>
                                 <li>Mozila Firefox <span class="pull-right label-purple label-2 label">85.8%</span></li>
@@ -1375,38 +1278,38 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="white-box res-mg-t-30 table-mg-t-pro-n">
-                            <h3 class="box-title">Visits from countries</h3>
+                            <h3 class="box-title">Visitas a carpetas o servicios</h3>
                             <ul class="country-state">
                                 <li>
-                                    <h2><span class="counter">1250</span></h2> <small>From Australia</small>
+                                    <h2><span class="counter">125</span></h2> <small>Servicio: Correos</small>
                                     <div class="pull-right">75% <i class="fa fa-level-up text-danger ctn-ic-1"></i></div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-danger ctn-vs-1" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%;"> <span class="sr-only">75% Complete</span></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <h2><span class="counter">1050</span></h2> <small>From USA</small>
+                                    <h2><span class="counter">105</span></h2> <small>Carpeta: Finanzas</small>
                                     <div class="pull-right">48% <i class="fa fa-level-up text-success ctn-ic-2"></i></div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-info ctn-vs-2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:48%;"> <span class="sr-only">48% Complete</span></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <h2><span class="counter">6350</span></h2> <small>From Canada</small>
+                                    <h2><span class="counter">635</span></h2> <small>Carpeta: Producción</small>
                                     <div class="pull-right">55% <i class="fa fa-level-up text-success ctn-ic-3"></i></div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-success ctn-vs-3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:55%;"> <span class="sr-only">55% Complete</span></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <h2><span class="counter">950</span></h2> <small>From India</small>
+                                    <h2><span class="counter">95</span></h2> <small>Servicio: Programa Contabilidad</small>
                                     <div class="pull-right">33% <i class="fa fa-level-down text-success ctn-ic-4"></i></div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-success ctn-vs-4" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:33%;"> <span class="sr-only">33% Complete</span></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <h2><span class="counter">3250</span></h2> <small>From Bangladesh</small>
+                                    <h2><span class="counter">325</span></h2> <small>Carpeta: RR.HH.</small>
                                     <div class="pull-right">60% <i class="fa fa-level-up text-success ctn-ic-5"></i></div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-inverse ctn-vs-5" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%;"> <span class="sr-only">60% Complete</span></div>
@@ -1418,21 +1321,17 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="courses-inner res-mg-t-30 table-mg-t-pro-n tb-sm-res-d-n dk-res-t-d-n">
                             <div class="courses-title">
-                                <a href="#"><img src="img/courses/4.jpg" alt="" /></a>
-                                <h2>Apps Development</h2>
-                            </div>
-                            <div class="courses-alaltic">
-                                <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
-                                <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-heart"></i></span> 50</span>
-                                <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-dollar"></i></span> 500</span>
+                                <a href="#"><img src="img/courses/4.jpg" alt="" /></a><br>
+                                <h2>Próximo Proyecto</h2>
+                                <h2>Implementación de MFA:</h2>
                             </div>
                             <div class="course-des">
-                                <p><span><i class="fa fa-clock"></i></span> <b>Duration:</b> 6 Months</p>
-                                <p><span><i class="fa fa-clock"></i></span> <b>Professor:</b> Jane Doe</p>
-                                <p><span><i class="fa fa-clock"></i></span> <b>Students:</b> 100+</p>
+                                <p><span><i class="fa fa-clock"></i></span> <b>Duración:</b> 2 meses</p>
+                                <p><span><i class="fa fa-clock"></i></span> <b> Responsable:</b>  Equipo de administradores</p>
+                                <p><span><i class="fa fa-clock"></i></span> <b> Involucrados: </b> Todos</p>
                             </div>
                             <div class="product-buttons">
-                                <button type="button" class="button-default cart-btn">Read More</button>
+                                <button type="button" class="button-default cart-btn">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -1452,67 +1351,66 @@
         </div>
     </div>
 
-    <!-- jquery
-		============================================ -->
+    <!-- jquery -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- bootstrap JS
-		============================================ -->
+
+    <!-- bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- wow JS
-		============================================ -->
+
+    <!-- wow JS -->
     <script src="js/wow.min.js"></script>
-    <!-- price-slider JS
-		============================================ -->
+
+    <!-- price-slider JS -->
     <script src="js/jquery-price-slider.js"></script>
-    <!-- meanmenu JS
-		============================================ -->
+
+    <!-- meanmenu JS= -->
     <script src="js/jquery.meanmenu.js"></script>
-    <!-- owl.carousel JS
-		============================================ -->
+
+    <!-- owl.carousel JS -->
     <script src="js/owl.carousel.min.js"></script>
-    <!-- sticky JS
-		============================================ -->
+
+    <!-- sticky JS -->
     <script src="js/jquery.sticky.js"></script>
-    <!-- scrollUp JS
-		============================================ -->
+
+    <!-- scrollUp JS -->
     <script src="js/jquery.scrollUp.min.js"></script>
-    <!-- counterup JS
-		============================================ -->
+
+    <!-- counterup JS -->
     <script src="js/counterup/jquery.counterup.min.js"></script>
     <script src="js/counterup/waypoints.min.js"></script>
     <script src="js/counterup/counterup-active.js"></script>
-    <!-- mCustomScrollbar JS
-		============================================ -->
+
+    <!-- mCustomScrollbar JS -->
     <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
-    <!-- metisMenu JS
-		============================================ -->
+
+    <!-- metisMenu JS -->
     <script src="js/metisMenu/metisMenu.min.js"></script>
     <script src="js/metisMenu/metisMenu-active.js"></script>
-    <!-- morrisjs JS
-		============================================ -->
+
+    <!-- morrisjs JS -->
     <script src="js/morrisjs/raphael-min.js"></script>
     <script src="js/morrisjs/morris.js"></script>
-    <script src="js/morrisjs/morris-active.js"></script>
-    <!-- morrisjs JS
-		============================================ -->
+    <script src="js/morrisjs/home3-active.js"></script>
+
+    <!-- morrisjs JS -->
     <script src="js/sparkline/jquery.sparkline.min.js"></script>
     <script src="js/sparkline/jquery.charts-sparkline.js"></script>
     <script src="js/sparkline/sparkline-active.js"></script>
-    <!-- chart JS
-		============================================ -->
+
+    <!-- chart JS -->
     <script src="js/charts/Chart.js"></script>
     <script src="js/charts/rounded-chart.js"></script>
-    <!-- calendar JS
-		============================================ -->
+
+    <!-- calendar JS -->
     <script src="js/calendar/moment.min.js"></script>
     <script src="js/calendar/fullcalendar.min.js"></script>
     <script src="js/calendar/fullcalendar-active.js"></script>
-    <!-- plugins JS
-		============================================ -->
+
+    <!-- plugins JS -->
     <script src="js/plugins.js"></script>
-    <!-- main JS
-		============================================ -->
+
+    <!-- main JS -->
     <script src="js/main.js"></script>
 </body>
 
